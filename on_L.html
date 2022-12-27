@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+<style>
+  table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  h2{
+    display: flex;
+    justify-content: center;
+  }
+  body{
+    background-color: #FF614F;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23fd724d' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23fb824b' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%23f8934a' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23f6a348' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23f3b347' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23f1c345' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23EED344' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+  color: wheat;
+  }
+</style>
+</head>
+<body>
+    <hr> <hr>
+    <h1><b><center>SMART KITCHEN</center></b></h1>
+    <hr> <hr>
+    <br>
+
+    <h2>STOVE</h2>
+    <center>
+    <label for="on">
+        <input type="radio" value="on" name="stove"  id="on">ON
+    </label>
+    <label for="off">
+        <input type="radio" value="off" name="stove"  id="off">OFF
+    </label>
+    </center>
+    <hr>
+
+    <h2>SMART SHELVES SYSTEM</h2> 
+    <h3><center>CLICK ON THE RADIO BUTTON TO FIND THE CORRESPONDING ELEMENTS</center></h3>
+
+        <h4><center>UTENSILS</center></h4>
+
+        <input type="radio" id="Turners" name="smart shelve" value="Turners">
+        <label for="Turners">Turners</label>
+        <input type="radio" id="Stirring Spoons" name="smart shelve" value="Stirring Spoons">
+        <label for="Stirring Spoons">Stirring Spoons</label>
+
+        <form action = "/off">
+          <input type="radio" id="Ladles" name="smart shelve" value="Ladles" onclick="submit();">
+          <label for="Ladles">Ladles</label>
+        </form>
+        <input type="radio" id="Whisk" name="smart shelve" value="Whisk">
+        <label for="Ladles">Whisk</label>
+        <input type="radio" id="Spatula" name="smart shelve" value="Spatula">
+        <label for="Ladles">Spatula</label>
+        <input type="radio" id="Draining Spoon" name="smart shelve" value="Draining Spoon">
+        <label for="Draining Spoon">Draining Spoon</label>
+        <input type="radio" id="Pasta Server" name="smart shelve" value="Pasta Server">
+        <label for="Pasta Server">Pasta Server</label>
+        <input type="radio" id="Tongs " name="smart shelve" value="Tongs ">
+        <label for="Tongs ">Tongs </label>
+        <input type="radio" id="Grater" name="smart shelve" value="Grater">
+        <label for="Grater">Grater</label>
+        <input type="radio" id="Can Opener" name="smart shelve" value="Can Opener">
+        <label for="Can Opener">Can Opener</label>
+        <input type="radio" id="Pizza Cutter" name="smart shelve" value="Pizza Cutter">
+        <label for="Pizza Cutter">Pizza Cutter</label>
+        <input type="radio" id="Ice-cream Spoon" name="smart shelve" value="Ice-cream Spoon">
+        <label for="Ice-cream Spoon">Ice-cream Spoon</label>
+        <input type="radio" id="Garlic Crusher" name="smart shelve" value="Garlic Crusher">
+        <label for="Garlic Crusher">Garlic Crusher</label>
+        <input type="radio" id="Peeler" name="smart shelve" value="Peeler">
+        <label for="Peeler">Peeler</label>
+        <input type="radio" id="Knife" name="smart shelve" value="Knife">
+        <label for="Knife">Knife</label>
+        <input type="radio" id="Tea Stainers" name="smart shelve" value="Tea Stainers">
+        <label for="Tea Stainers">Tea Stainers</label>
+        <input type="radio" id="Measuring Spoons" name="smart shelve" value="Measuring Spoons">
+        <label for="Measuring Spoons">Measuring Spoons</label>
+
+        <h4><center>CUTLERY</center></h4>
+        <input type="radio" id="Tea Spoons " name="smart shelve" value="Tea Spoons ">
+        <label for="Tea Spoons ">Tea Spoons </label>
+        <input type="radio" id="Dinner Spoons " name="smart shelve" value="Dinner Spoons ">
+        <label for="Dinner Spoons ">Dinner Spoons </label>
+        <input type="radio" id="Soup Spoons" name="smart shelve" value="Soup Spoons">
+        <label for="Soup Spoons">Soup Spoons</label>
+        <input type="radio" id="Dinner Knifes" name="smart shelve" value="Dinner Knifes">
+        <label for="Dinner Knifes">Dinner Knifes</label>
+        <input type="radio" id="Butter Knife" name="smart shelve" value="Butter Knife">
+        <label for="Butter Knife">Butter Knife</label>
+        <input type="radio" id="Forks " name="smart shelve" value="Forks ">
+        <label for="Forks ">Forks </label>
+        <input type="radio" id="Fruit Forks" name="smart shelve" value="Fruit Forks">
+        <label for="Fruit Forks">Fruit Forks</label>
+
+        <h4><center>COOKWARE</center></h4>
+        <input type="radio" id="Skillet" name="smart shelve" value="Skillet">
+        <label for="Skillet">Skillet</label>
+        <input type="radio" id="Sauté Pan" name="smart shelve" value="Sauté Pan">
+        <label for="Sauté Pan">Sauté Pan</label>
+        <input type="radio" id="Small Saucepan" name="smart shelve" value="Small Saucepan">
+        <label for="Small Saucepan">Small Saucepan</label>
+        <input type="radio" id="Medium Saucepan" name="smart shelve" value="Medium Saucepan">
+        <label for="Medium Saucepan">Medium Saucepan</label>
+        <input type="radio" id="Large Pot" name="smart shelve" value="Large Pot">
+        <label for="Large Pot">Large Pot</label>
+        <input type="radio" id="Grill Pan" name="smart shelve" value="Grill Pan">
+        <label for="Grill Pan">Grill Pan</label>
+        <input type="radio" id="Stockpot" name="smart shelve" value="Stockpot">
+        <label for="Stockpot">Stockpot</label>
+
+        <h4><center>BAKEWARE</center></h4>
+        <input type="radio" id="Rectangular Baking Pan" name="smart shelve" value="Rectangular Baking Pan">
+        <label for="Rectangular Baking Pan">Rectangular Baking Pan</label>
+        <input type="radio" id="Round Cake Pan" name="smart shelve" value="Round Cake Pan">
+        <label for="Round Cake Pan">Round Cake Pan</label>
+        <input type="radio" id="Baking Sheet Pan" name="smart shelve" value="Baking Sheet Pan">
+        <label for="Baking Sheet Pan">Baking Sheet Pan</label>
+        <input type="radio" id="Muffin Pan" name="smart shelve" value="Muffin Pan">
+        <label for="Muffin Pan">Muffin Pan</label>
+        <input type="radio" id="Casserole Dish" name="smart shelve" value="Casserole Dish">
+        <label for="Casserole Dish">Casserole Dish</label>
+        <input type="radio" id="OFF" name="smart shelve" value="OFF">
+        <label for="OFF">OFF</label>
+    
+        <hr>
+    <h2>PANTRY</h2>
+    
+    <table style="width:100%" >
+        <caption style="background-color: orange;">SHOPPING LIST</caption>
+        <tr>
+          <th>S N0.</th>
+          <th>Item</th>
+          <th>Weight</th>
+
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
